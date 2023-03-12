@@ -4,7 +4,12 @@
     "build": {
       "implementation": "./src/executors/build/executor",
       "schema": "./src/executors/build/schema.json",
-      "description": "build executor"
+      "description": "Builds the Strapi admin app"
+    },
+    "develop": {
+      "implementation": "./src/executors/develop/executor",
+      "schema": "./src/executors/develop/schema.json",
+      "description": "Start your Strapi application in development mode"
     }
   }
 }

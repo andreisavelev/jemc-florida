@@ -9,6 +9,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@angular-devkit/architect": "^0.1502.2",
     "@nrwl/devkit": "15.8.6",
     "@nrwl/eslint-plugin-nx": "15.8.6",
     "@nrwl/jest": "15.8.6",
@@ -16,6 +17,8 @@
     "@nrwl/linter": "15.8.6",
     "@nrwl/nx-plugin": "^15.8.6",
     "@nrwl/workspace": "15.8.6",
+    "@strapi/generate-new": "^4.7.1",
+    "@strapi/strapi": "^4.7.1",
     "@swc-node/register": "^1.4.2",
     "@swc/cli": "~0.1.55",
     "@swc/core": "^1.2.173",

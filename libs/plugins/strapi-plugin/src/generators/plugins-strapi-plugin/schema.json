@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/schema",
   "cli": "nx",
-  "$id": "PluginsStrapiPlugin",
-  "title": "",
+  "id": "NxStrapiPlugin",
+  "title": "Strapi Application Options Schema",
   "type": "object",
   "properties": {
     "name": {
@@ -21,7 +21,8 @@
     },
     "directory": {
       "type": "string",
-      "description": "A directory where the project is placed"
+      "description": "A directory where the project is placed",
+      "alias": "d"
     }
   },
   "required": ["name"]
