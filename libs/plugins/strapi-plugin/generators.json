@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "plugins-strapi-plugin",
+  "version": "0.0.1",
+  "generators": {
+    "plugins-strapi-plugin": {
+      "factory": "./src/generators/plugins-strapi-plugin/generator",
+      "schema": "./src/generators/plugins-strapi-plugin/schema.json",
+      "description": "plugins-strapi-plugin generator"
+    }
+  }
+}
