@@ -5,16 +5,16 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "../../node_modules/@strapi/strapi/bin/strapi.js start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.7.1",
-    "@strapi/plugin-users-permissions": "4.7.1",
-    "@strapi/plugin-i18n": "4.7.1",
-    "better-sqlite3": "8.0.1"
+    "@strapi/strapi": "../../",
+    "@strapi/plugin-users-permissions": "../../",
+    "@strapi/plugin-i18n": "../../",
+    "better-sqlite3": "../../"
   },
   "author": {
     "name": "A Strapi developer"
