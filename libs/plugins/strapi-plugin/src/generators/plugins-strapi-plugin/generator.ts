@@ -53,10 +53,10 @@ export default async function (
     sourceRoot: `${normalizedOptions.projectRoot}/src`,
     targets: {
       build: {
-        executor: '@design4pro/nx-strapi-plugin:build',
+        executor: '@jemc/strapi-plugin:build',
       },
       serve: {
-        executor: '@design4pro/nx-strapi-plugin:develop',
+        executor: '@jemc/strapi-plugin:develop',
       },
     },
     tags: normalizedOptions.parsedTags,

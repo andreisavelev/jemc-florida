@@ -1,10 +1,24 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "version": 2,
   "cli": "nx",
-  "title": "Build executor",
-  "description": "",
+  "title": "Start your Strapi application in development mode",
+  "description": "Start your Strapi application in development mode",
   "type": "object",
-  "properties": {},
+  "properties": {
+    "noBuild": {
+      "type": "boolean",
+      "description": "Disable build"
+    },
+    "watchAdmin": {
+      "type": "boolean",
+      "description": "Enable watch",
+      "default": false
+    },
+    "browser": {
+      "type": "boolean",
+      "description": "Open the browser",
+      "default": true
+    }
+  },
   "required": []
 }
