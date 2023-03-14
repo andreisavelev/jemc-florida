@@ -1,9 +1,4 @@
-import styled from 'styled-components';
-
-const StyledPage = styled.div`
-  .page {
-  }
-`;
+import { MainNavigation } from "@jemc-florida/widgets";
 
 export function Index() {
   /*
@@ -12,9 +7,7 @@ export function Index() {
    * Note: The corresponding styles are in the ./index.styled-components file.
    */
   return (
-    <StyledPage>
-      <h1>Start here</h1>
-    </StyledPage>
+    <MainNavigation />
   );
 }
 

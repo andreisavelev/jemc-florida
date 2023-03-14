@@ -1,14 +1,15 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import 'bootstrap/dist/css/bootstrap.css';
 import './styles.css';
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to main-site!</title>
+        <title>Jesus Embassy Church - Florida</title>
       </Head>
-      <main className="app">
+      <main>
         <Component {...pageProps} />
       </main>
     </>
