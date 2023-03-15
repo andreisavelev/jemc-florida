@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export function MainNavigation() {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" className="z-3">
       <Container fluid>
         <Navbar.Brand href="#home">JEMC logo</Navbar.Brand>
         <Nav className="me-auto">

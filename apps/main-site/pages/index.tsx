@@ -1,7 +1,13 @@
-import { MainNavigation } from '@jemc-florida/widgets';
+import { MainNavigation, Hero } from '@jemc-florida/widgets';
 
 export function Index() {
-  return <MainNavigation />;
+
+  return (
+    <>
+      <MainNavigation />
+      <Hero />
+    </>
+  );
 }
 
 export default Index;
