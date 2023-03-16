@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Widgets from './widgets';
+import SloganCard from './slogan-card';
 
-describe('Widgets', () => {
+describe('SloganCard', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Widgets />);
+    const { baseElement } = render(<SloganCard />);
     expect(baseElement).toBeTruthy();
   });
 });

@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@jemc-florida/shared": ["libs/shared/src/index.ts"],
       "@jemc-florida/widgets": ["libs/widgets/src/index.ts"],
       "@jemc/strapi-plugin": ["libs/plugins/strapi-plugin/src/index.ts"]
     }

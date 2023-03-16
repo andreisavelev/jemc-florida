@@ -1,11 +1,11 @@
-import { MainNavigation, Hero } from '@jemc-florida/widgets';
+import { MainNavigation, Hero, Slogans } from '@jemc-florida/widgets';
 
 export function Index() {
-
   return (
     <>
       <MainNavigation />
       <Hero />
+      <Slogans />
     </>
   );
 }

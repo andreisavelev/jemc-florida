@@ -9,6 +9,7 @@ const StyledHero = styled.div`
   background-size: cover;
   background-position: center;
   height: calc(100vh - 56px);
+  margin-bottom: 128px;
 `;
 
 const StyledContainerWrapper = styled.div`

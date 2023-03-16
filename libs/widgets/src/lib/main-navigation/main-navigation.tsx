@@ -7,7 +7,7 @@ import Link from 'next/link';
 export function MainNavigation() {
   return (
     <Navbar bg="dark" variant="dark" className="z-3">
-      <Container fluid>
+      <Container>
         <Navbar.Brand href="#home">JEMC logo</Navbar.Brand>
         <Nav className="me-auto">
           <div className="nav-item py-2 py-lg-1 col-12 col-lg-auto">
@@ -25,7 +25,7 @@ export function MainNavigation() {
           </Link>
         </Nav>
         <Nav>
-          <Button variant="warning">Contact Us</Button>
+          <Button variant="primary">Contact Us</Button>
         </Nav>
       </Container>
     </Navbar>
