@@ -6,7 +6,7 @@ import SloganCard from "../slogan-card/slogan-card";
 
 export function Slogans() {
   return (
-    <Container className="jemc-mb-section">
+    <Container className="jemc-mb-section" id="slogans">
       <Row className="mb-4">
         <Col classNmae="justify-content-center">
           <figure className="text-center">

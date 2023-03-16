@@ -12,6 +12,20 @@
   --bs-body-color: var(--jemc-black);
 }
 
+html {
+  scroll-behavior:smooth
+}
+
+a {
+  color: var(--jemc-black);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--jemc-black);
+  text-decoration: none;
+}
+
 .btn-primary {
   --bs-btn-color: var(--jemc-btn-color);
   --bs-btn-bg: var(--jemc-primary);

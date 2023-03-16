@@ -32,7 +32,7 @@ export function Hero() {
 
             <div className="mt-3">
               <Link
-                href="#"
+                href="#slogans"
                 className="btn btn-primary btn-warning"
               >
                 Learn more
