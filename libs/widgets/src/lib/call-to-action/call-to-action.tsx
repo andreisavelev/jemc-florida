@@ -27,7 +27,7 @@ export function CallToAction() {
           <Col md={6} className="text-uppercase">
             <ContentHeader
               level={"h2"}
-              text="What we do?"
+              text="What we believe?"
               className="display-5 font-weight-bold"
             />
             <p>

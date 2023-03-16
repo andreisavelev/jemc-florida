@@ -1,6 +1,6 @@
 import cn from 'classnames';
 
-type Level = 'h1' | 'h2' | 'h3' | 'h4';
+type Level = 'h1' | 'h2' | 'h3' | 'h4' | 'h5';
 export interface ContentHeaderProps {
   level: Level,
   text: string
@@ -14,7 +14,8 @@ const levels: (text: string, className: string) => Record<Level, JSX.Element> = 
     h1: <h1 className={classNames}>{text}</h1>,
     h2: <h2 className={classNames}>{text}</h2>,
     h3: <h3 className={classNames}>{text}</h3>,
-    h4: <h4 className={classNames}>{text}</h4>
+    h4: <h4 className={classNames}>{text}</h4>,
+    h5: <h5 className={classNames}>{text}</h5>,
   };
 }
 
