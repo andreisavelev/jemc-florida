@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col';
 import Link from "next/link";
 
 const StyledHero = styled.div`
-  position: absolute;
   background-image: url("/images/hero.jpg");
   background-size: cover;
   background-position: center;

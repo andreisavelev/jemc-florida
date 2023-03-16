@@ -5,6 +5,7 @@
   --jemc-light-orange: #FFF5EB;
   --jemc-btn-color: #1C1D28;
   --jemc-btn-hover-bg: #F2C79B;
+  --jemc-mb-section: 128px;
 
   /* Overrides */
   --bs-black: var(--jemc-black);
@@ -28,4 +29,8 @@
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
   --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.jemc-mb-section {
+  margin-bottom: var(--jemc-mb-section);
 }

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 /* eslint-disable-next-line */
 export interface CardProps {
   children: JSX.Element | JSX.Element[]
+  className: string;
 }
 
 const StyledCard = styled.article`
@@ -26,9 +27,9 @@ const StyledBottomLine = styled.hr`
   opacity: 1;
 `
 
-export function Card({ children }: CardProps) {
+export function Card({ children, className }: CardProps) {
   return (
-    <StyledCard>
+    <StyledCard className={className}>
       {children}
 
       <StyledBottomLine />

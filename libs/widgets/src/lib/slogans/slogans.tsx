@@ -1,13 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from "react-bootstrap/Col";
-import Image from "next/image";
 import { ContentHeader } from "@jemc-florida/shared";
 import SloganCard from "../slogan-card/slogan-card";
 
 export function Slogans() {
   return (
-    <Container>
+    <Container className="jemc-mb-section">
       <Row className="mb-4">
         <Col classNmae="justify-content-center">
           <figure className="text-center">

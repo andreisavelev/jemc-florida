@@ -9,13 +9,9 @@ export interface SloganCardProps {
   imageLink: string;
 }
 
-const StyledCard = styled(Card)`
-  height: 100%;
-`
-
 export function SloganCard({ title, text, imageLink }: SloganCardProps) {
   return (
-    <StyledCard>
+    <Card className="h-100">
       <Image
         src={imageLink}
         width="48"
@@ -27,7 +23,7 @@ export function SloganCard({ title, text, imageLink }: SloganCardProps) {
       <p>
         {text}
       </p>
-    </StyledCard>
+    </Card>
   );
 }
 
