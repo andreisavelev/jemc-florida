@@ -1,29 +1,38 @@
 import styled from "styled-components";
-import Image from "next/image";
-import { Card, ContentHeader } from "@jemc-florida/shared";
 
-/* eslint-disable-next-line */
+export type Variant = '1' | '2' | '3';
+
 export interface SloganCardProps {
   title: string;
-  text: string;
-  imageLink: string;
+  children: JSX.Element | JSX.Element[];
+  variant: Variant
 }
 
-export function SloganCard({ title, text, imageLink }: SloganCardProps) {
+const StyledSloganCardTitle = styled.h2<Pick<SloganCardProps, 'variant'>>`
+  padding-top: 3.438rem;
+  padding-bottom: 3.75rem;
+  background-image: url('images/number${props => props.variant}.png');
+  background-repeat: no-repeat;
+  color: var(--jemc-primary);
+`
+
+const StyledSloganSection = styled.section`
+  color: var(--jemc-black);
+`
+
+export function SloganCard({ title, children, variant = '1' }: SloganCardProps) {
   return (
-    <Card className="h-100">
-      <Image
-        src={imageLink}
-        width="48"
-        height="48"
-        alt={text}
-        className="mb-4"
-      />
-      <ContentHeader level="h4" text={title} />
-      <p>
-        {text}
-      </p>
-    </Card>
+    <article>
+      <StyledSloganCardTitle
+        variant={variant}
+        className="text-uppercase fw-bold"
+      >
+        {title}
+      </StyledSloganCardTitle>
+      <StyledSloganSection>
+        {children}
+      </StyledSloganSection>
+    </article>
   );
 }
 

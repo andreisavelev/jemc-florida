@@ -11,41 +11,63 @@ export function Slogans() {
         <Col classNmae="justify-content-center">
           <figure className="text-center">
             <blockquote className="blockquote">
-              <p>I will build My church, and the gates of Hades will not prevail against it.</p>
+              <p>«Бог хочет, чтобы все люди спаслись и достигли познания истины»</p>
             </blockquote>
             <figcaption className="blockquote-footer">
-              <cite title="Matthew 16:18">Matthew 16:18</cite>
+              <cite title="1-е Тимофею 2:4">1-е Тимофею 2:4</cite>
             </figcaption>
           </figure>
 
           <section>
             <ContentHeader
               level="h2"
-              text="A Church That's Relevant"
+              text="Наше видение, ценности и цели"
               className="text-center"
             />
           </section>
         </Col>
       </Row>
 
+      <Row className="justify-content-between">
+        <Col sm={12} lg={5} xl={5}>
+          <SloganCard
+            title="Наше видение"
+            variant="1"
+          >
+            <p>
+              Видение и стратегия как у Иисуса. Он хотел спасти мир и поэтому ИЗБИРАЛ, УКОРЕНЯЛ, ОБУЧАЛ И ВЫСЫЛАЛ своих 12 учеников.
+            </p>
+          </SloganCard>
+        </Col>
+        <Col sm={12} lg={5} xl={5}>
+          <SloganCard
+            title="Наши ценности"
+            variant="2"
+          >
+            <ul>
+              <li>Команда 12</li>
+              <li>Евангелизация</li>
+              <li>Ячейки (семейные, мужские, женские, подростковые)</li>
+              <li>Личные отношения с Богом</li>
+              <li>Пенуэл (встреча с Богом)</li>
+              <li>Ходатайственная молитва</li>
+              <li>Обучение лидерств</li>
+            </ul>
+          </SloganCard>
+        </Col>
+      </Row>
       <Row>
-        <Col sm={12} lg={4} xl={4}>
+        <Col sm={12} lg={12} xl={12}>
           <SloganCard
-            title="Our Mission"
-            imageLink="/images/Praise_Icon.svg"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-        </Col>
-        <Col sm={12} lg={4} xl={4}>
-          <SloganCard
-            title="Our Goals"
-            imageLink="/images/Sound_Icon.svg"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-        </Col>
-        <Col sm={12} lg={4} xl={4}>
-          <SloganCard
-            title="Our Vision"
-            imageLink="/images/Ministry_of_love_Icon.svg"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+            title="Наша Миссия"
+            variant="3"
+          >
+            <p>
+              <b>Наша любовь к Богу</b> заключается в том, что <b>мы делаем всё</b>,
+              чтобы каждый человек был <b>спасён</b>,&nbsp;
+              <b>исцелён</b>, <b>восстановлен</b>, и <b>благословлен</b> на дело Евангелия!
+            </p>
+          </SloganCard>
         </Col>
       </Row>
     </Container>

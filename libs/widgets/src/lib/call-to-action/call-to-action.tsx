@@ -24,17 +24,16 @@ export function CallToAction() {
     <StyledCallToAction>
       <StyledContainerWrapper className="position-absolute text-white d-flex flex-column align-items-start justify-content-center">
         <Container>
-          <Col md={6} className="text-uppercase">
-            <ContentHeader
-              level={"h2"}
-              text="What we believe?"
-              className="display-5 font-weight-bold"
-            />
-            <p>
-              <b>Our love for God</b> is expressed by doing everything <b>we can to make sure that</b>
-              every person <b>is saved</b>, <b>healed</b>, <b>restored</b>,
-              <b>and blessed</b> for the work of the gospel.
-            </p>
+          <Col className="text-uppercase">
+            <figure>
+              <h1 className="mb-4 mt-2 display-6 font-weight-bold">
+                «Бог хочет, чтобы все люди спаслись и достигли познания истины»
+              </h1>
+
+              <figcaption className="blockquote-footer">
+                <cite title="1-е Тимофею 2:4">1-е Тимофею 2:4</cite>
+              </figcaption>
+            </figure>
           </Col>
         </Container>
       </StyledContainerWrapper>

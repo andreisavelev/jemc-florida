@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import Container from "react-bootstrap/Container";
 import Col from 'react-bootstrap/Col';
+import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
+import Link from "next/link";
 
 const StyledHero = styled.div`
   background-image: url("/images/hero.jpg");
@@ -22,17 +25,18 @@ export function Hero() {
     <StyledHero className="position-relative">
       <StyledContainerWrapper className="position-absolute text-white d-flex flex-column align-items-start justify-content-center">
         <Container>
-          <Col md={6} className="text-uppercase">
-            <figure>
-              <h1 className="mb-4 mt-2 display-6 font-weight-bold">
-                «Бог хочет, чтобы все люди спаслись и достигли познания истины»
-              </h1>
-
-              <figcaption className="blockquote-footer">
-                <cite title="1-е Тимофею 2:4">1-е Тимофею 2:4</cite>
-              </figcaption>
-            </figure>
-          </Col>
+          <Row className="mb-3">
+            <Col md={7} className="text-uppercase">
+              <h1 className="display-6">Международный библейский центр «Посольство&nbsp;Иисуса» Флорида</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Link href="#" className="btn btn-primary">
+                Узнайте больше о нас
+              </Link>
+            </Col>
+          </Row>
         </Container>
       </StyledContainerWrapper>
     </StyledHero>

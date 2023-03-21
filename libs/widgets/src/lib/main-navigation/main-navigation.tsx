@@ -18,23 +18,23 @@ export function MainNavigation() {
           />
           Jesus Embassy Church
         </Navbar.Brand>
-        <Nav className="me-auto">
-          <div className="nav-item py-2 py-lg-1 col-12 col-lg-auto">
-            <div className="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
-            <hr className="d-lg-none my-2 text-white-50" />
-          </div>
-          <Link className="nav-link" href="/">
-            Home
-          </Link>
-          <Link className="nav-link" href="#">
-            About Church
-          </Link>
-          <Link className="nav-link" href="#">
-            Team
-          </Link>
-        </Nav>
+        {/*<Nav className="me-auto">*/}
+        {/*  <div className="nav-item py-2 py-lg-1 col-12 col-lg-auto">*/}
+        {/*    <div className="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>*/}
+        {/*    <hr className="d-lg-none my-2 text-white-50" />*/}
+        {/*  </div>*/}
+        {/*  <Link className="nav-link" href="/">*/}
+        {/*    Home*/}
+        {/*  </Link>*/}
+        {/*  <Link className="nav-link" href="#">*/}
+        {/*    About Church*/}
+        {/*  </Link>*/}
+        {/*  <Link className="nav-link" href="#">*/}
+        {/*    Team*/}
+        {/*  </Link>*/}
+        {/*</Nav>*/}
         <Nav>
-          <Button variant="primary">Contact Us</Button>
+          <Button variant="primary">Напишите нам</Button>
         </Nav>
       </Container>
     </Navbar>
