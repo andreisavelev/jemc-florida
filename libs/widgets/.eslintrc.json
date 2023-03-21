@@ -3,6 +3,12 @@
   "ignorePatterns": ["!**/*"],
   "overrides": [
     {
+      "files": ["**/.stroybook/preview.ts"],
+      "rules": {
+        "@nrwl/nx/enforce-module-boundaries": "off"
+      }
+    },
+    {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {}
     },

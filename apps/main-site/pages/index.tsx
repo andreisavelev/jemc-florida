@@ -1,4 +1,10 @@
-import { MainNavigation, Hero, Slogans, CallToAction, MainAnnouncement } from '@jemc-florida/widgets';
+import {
+  MainNavigation,
+  Hero,
+  Slogans,
+  CallToAction,
+  ContactsSection
+} from '@jemc-florida/widgets';
 
 export function Index() {
   return (
@@ -7,7 +13,7 @@ export function Index() {
       <Hero />
       <Slogans />
       <CallToAction />
-      <MainAnnouncement />
+      <ContactsSection />
     </>
   );
 }
