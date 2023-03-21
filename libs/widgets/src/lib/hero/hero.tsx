@@ -10,7 +10,7 @@ const StyledHero = styled.div`
   background-size: cover;
   background-position: center;
   height: 30rem;
-  margin-bottom: 128px;
+  margin-bottom: var(--jemc-mb-section);
 `;
 
 const StyledContainerWrapper = styled.div`

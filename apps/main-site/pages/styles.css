@@ -5,7 +5,7 @@
   --jemc-light-orange: #FFF5EB;
   --jemc-btn-color: #1C1D28;
   --jemc-btn-hover-bg: #F2C79B;
-  --jemc-mb-section: 128px;
+  --jemc-mb-section: 5rem;
 
   /* Overrides */
   --bs-black: var(--jemc-black);
