@@ -74,7 +74,7 @@ export function MainAnnouncement() {
                   width="20"
                   height="20"
                 />
-                <Link href="">Florida, Sarasota, Nort Port</Link>
+                <Link href="">Florida, Sarasota, North Port</Link>
               </StyledCoordinates>
             </StyledSermonAnnouncement>
 

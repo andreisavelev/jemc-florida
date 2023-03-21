@@ -3,10 +3,8 @@ import { ReactComponent as PinAngleIcon } from 'bootstrap-icons/icons/pin-angle.
 
 const StyledPinAngleIcon = styled(PinAngleIcon)`
   color: var(--jemc-primary);
-  width: 50px;
-  height: 50px;
 `
 
 export default {
-  PIN: <StyledPinAngleIcon />
+  PIN: <StyledPinAngleIcon height="30px" width="30px" />
 };
