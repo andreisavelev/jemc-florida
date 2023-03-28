@@ -9,7 +9,7 @@ export function Slogans() {
     <Container className="jemc-mb-section" id="slogans">
       <Row className="mb-4">
         <Col className="justify-content-center">
-          <figure className="text-center">
+          <figure className="text-center" id="slogans">
             <blockquote className="blockquote">
               <p>«Бог хочет, чтобы все люди спаслись и достигли познания истины»</p>
             </blockquote>

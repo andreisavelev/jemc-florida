@@ -1,9 +1,11 @@
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import {
   MainNavigation,
   Hero,
   Slogans,
   CallToAction,
-  ContactsSection
+  ContactsSection,
+  MainFooter
 } from '@jemc-florida/widgets';
 
 export function Index() {
@@ -14,6 +16,7 @@ export function Index() {
       <Slogans />
       <CallToAction />
       <ContactsSection />
+      <MainFooter />
     </>
   );
 }

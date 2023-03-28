@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Link from "next/link";
 
 const StyledHero = styled.div`
-  background-image: url("/images/hero.jpg");
+  background-image: url("/images/hero_pastor.jpeg");
   background-size: cover;
   background-position: center;
   height: 30rem;
@@ -32,7 +32,7 @@ export function Hero() {
           </Row>
           <Row>
             <Col>
-              <Link href="#" className="btn btn-primary">
+              <Link href="#slogans" className="btn btn-primary">
                 Узнайте больше о нас
               </Link>
             </Col>

@@ -10,7 +10,7 @@ import Button from "react-bootstrap/Button";
 export function ContactsSection() {
 
   return (
-    <Container className="jemc-mb-section">
+    <Container className="jemc-mb-section" id="contacts">
       <Row>
         <Col md={6} sm={12} className="mb-4">
           <ContentHeader level="h3" text="Наш адрес" />

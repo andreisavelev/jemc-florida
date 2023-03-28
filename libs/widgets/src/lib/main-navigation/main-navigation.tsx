@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 import Image from "next/image";
+import Link from "next/link";
 
 export function MainNavigation() {
   return (
@@ -18,12 +19,12 @@ export function MainNavigation() {
           Jesus Embassy Church
         </Navbar.Brand>
         <Nav>
-          <Button
-            variant="primary"
-            size="sm"
+          <Link
+            href="#contacts"
+            className="btn-primary btn"
           >
             Напишите нам
-          </Button>
+          </Link>
         </Nav>
       </Container>
     </Navbar>
