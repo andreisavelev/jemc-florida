@@ -14,7 +14,7 @@ export function ContactsSection() {
       <Row>
         <Col md={6} sm={12} className="mb-4">
           <ContentHeader level="h3" text="Наш адрес" />
-          <p>Florida, North Port</p>
+          <p>1101 S Tamiami Trl suite 112, Venice, FL 34285</p>
           <Map />
         </Col>
 
