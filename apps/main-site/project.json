@@ -63,6 +63,24 @@
       "options": {
         "lintFilePatterns": ["apps/main-site/**/*.{ts,tsx,js,jsx}"]
       }
+    },
+    "container": {
+      "executor": "@nx-tools/nx-container:build",
+      "dependsOn": ["^build"],
+      "options": {
+        "engine": "docker",
+        "metadata": {
+          "images": ["jemc-florida/main-site"],
+          "load": true,
+          "tags": [
+            "type=schedule",
+            "type=ref,event=branch",
+            "type=ref,event=tag",
+            "type=ref,event=pr",
+            "type=sha,prefix=sha-"
+          ]
+        }
+      }
     }
   },
   "tags": []
