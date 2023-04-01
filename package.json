@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "serve:site": "nx serve main-site",
+    "build:site": "nx build main-site",
+    "container:site": "nx container main-site",
     "serve:stories:widgets": "nx run widgets:storybook"
   },
   "private": true,
