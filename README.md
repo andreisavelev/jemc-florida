@@ -11,6 +11,8 @@
 
 Run `nx graph` to see a diagram of the dependencies of the projects.
 
+## Serve site
+`yarn serve:site`
 ## Build site
 `yarn run build:site`
 
