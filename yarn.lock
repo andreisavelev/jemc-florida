@@ -2585,7 +2585,7 @@
   dependencies:
     nx "15.8.7"
 
-"@nrwl/cli@15.9.2":
+"@nrwl/cli@15.9.2", "@nrwl/cli@^15.9.2":
   version "15.9.2"
   resolved "https://registry.npmjs.org/@nrwl/cli/-/cli-15.9.2.tgz#82537d3d85410b0143d37a3b4fade09675356084"
   integrity sha512-QoCmyrcGakHAYTJaNBbOerRQAmqJHMYGCdqtQidV+aP9p1Dy33XxDELfhd+IYmGqngutXuEWChNpWNhPloLnoA==
