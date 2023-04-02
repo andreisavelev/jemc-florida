@@ -1,8 +1,7 @@
-import {useMemo} from "react";
+import { useMemo } from "react";
 import styled from 'styled-components';
 import { useLoadScript, GoogleMap, Marker } from '@react-google-maps/api';
-import {PlaceholderSize} from "react-bootstrap/usePlaceholder";
-import {Libraries} from "@react-google-maps/api/dist/utils/make-load-script-url";
+import { Libraries } from "@react-google-maps/api/dist/utils/make-load-script-url";
 
 /* eslint-disable-next-line */
 export interface MapProps {}
